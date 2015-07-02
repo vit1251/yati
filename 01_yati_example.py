@@ -16,9 +16,12 @@ class Application(object):
         gg1l2 = gg1.createLine(name="Line 1.2")
         #
         gg1l2.registerInterval(start=1.5, end=2.5, color=yati.Color.ORANGE)
-        gg1l2.registerInterval(start=4.5, end=5.5, color=yati.Color.YELLOW)
+        gg1l2.registerInterval(start=3.5, end=4.5, color=yati.Color.YELLOW)
         #
         gg2 = g.createGroup(name="Group 2")
+        #
+        gg2l1 = gg2.createLine(name="Line 2.1")
+        gg2l1.registerInterval(start=1.5, end=4.5, color=yati.Color.GREEN)
         #
         gr = yati.GraphRender(graph=g)
         gr.render(filename="1.svg")

@@ -4,7 +4,7 @@ from Color import Color
 
 
 class GraphGroupLineInterval(object):
-    def __init__(self, start, end, color=Color.BLACK, text=None, owner=None):
+    def __init__(self, start, end, color=Color.GRAY, text=None, owner=None):
         self.owner = owner
         #
         self.start = start

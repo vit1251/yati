@@ -1,7 +1,7 @@
 
 class Color(object):
-    YELLOW = ""
-    RED = ""
-    BLACK = ""
-    GREEN = ""
-    ORANGE = ""
+    GRAY    = "#CCCCCC"
+    YELLOW  = "#FFE97F"
+    RED     = "#FF3D33"
+    GREEN   = "#53C614"
+    ORANGE  = "#FF973D"
