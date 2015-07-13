@@ -4,9 +4,11 @@ from GraphGroupLineInterval import GraphGroupLineInterval
 
 
 class GraphGroupLine(object):
-    def __init__(self, name, owner=None):
+    def __init__(self, name, owner=None, height=10):
         self.owner = owner
         self.name = name
+        #
+        self.height = height
         #
         self.intervals = []
 

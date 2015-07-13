@@ -1,5 +1,5 @@
 
-from Graph import Graph
-from Color import Color
+from yati.Graph import Graph
+from yati.Color import Color
 
-from GraphRender import GraphRender
+from yati.GraphRender import GraphRender
