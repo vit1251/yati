@@ -1,6 +1,6 @@
 # yati
 
-Yet Another Timeline Implementation
+Yet Another Timeline Implementation (yati) is high level with ink data rate value.
 
 Result:
 
@@ -34,3 +34,7 @@ Source:
         gr = yati.GraphRender(graph=g, padding=(0,0,0,100))
         gr.render(filename="1.svg")
 ```
+
+Watch theory on YouTube:
+
+[![Ink-Information Ratio](http://img.youtube.com/vi/CJouyPxHb84/0.jpg)](http://www.youtube.com/watch?v=CJouyPxHb84)
